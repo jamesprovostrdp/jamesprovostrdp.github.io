@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Images and Tables | James Provost</title>
+        <!-- Internal CSS -->
+        <style>
+            td, th {
+                border: 2px solid black;
+            }
+            table {
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Top</a></li>
+                    <li><a href="./index.html">Main</a></li>
+                    <li><a href="./about.html">About</a></li>
+
+                </ul>
+            </nav>
+            <h1>James Provost's Website!</h1>
+            <h3>Student ID: 000346754</h3>
+            <h3>Date: January 17th 2024</h3>
+        </header>
+        <main>
+            <article>
+                <h1>Images</h1>
+                <p>
+                    
+                </p>
+            </article>
+            <figure>
+                <img src="" alt="picture of a">
+                <figcaption>This is great picture</figcaption>
+            </figure>
+            <h1>Tables</h1>
+            <table>
+                <caption>Table 1: This is a table</caption>
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th>Col 3</th>
+                        <th>Col 2</th>
+                        <th>Col 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2</th>
+                        <td>Cell 1</td>
+                        <td colspan="2">Cell 2</td>
+                        <!-- Spacing for colspan-->
+                    </tr>
+                    <tr>
+                        <th>Row 3</th>
+                        <td>Cell 1</td>
+                        <td colspan="2" rowspan="2">Cell 2</td>
+                        <!-- Spacing for colspan-->
+                    </tr>
+                    <tr>
+                        <th>Row 4</th>
+                        <td>Cell 1</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th> </th>
+                        <th>Foot 1</th>
+                        <th>Foot 2</th>
+                        <th>Foot 3</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+        <footer>
+            <p>&copy; JP 2024</p>
+        </footer>
+    </body>
+</html>
