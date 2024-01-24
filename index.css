@@ -1,4 +1,16 @@
 /* External CSS */
 h1 {
-  color: rgb(133, 51, 51);
+  background-color: rgb(212, 103, 103);
+  margin: auto 50px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+#top {
+  margin-bottom: 50px;
+}
+
+#bottom {
+  margin-top: 20px;
 }
